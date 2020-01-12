@@ -1,0 +1,12 @@
+//
+//  debugConfig.xcconfig
+//  XcconfigDemo
+//
+//  Created by 贺文杰 on 2020/1/12.
+//  Copyright © 2020 贺文杰. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ASSETCATALOG_COMPILER_AAICON_NAME = MyAppIcon

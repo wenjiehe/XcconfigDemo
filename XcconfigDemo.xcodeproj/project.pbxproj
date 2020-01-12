@@ -16,6 +16,8 @@
 		3D3BA0A623CB654A0023E6FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BA0A523CB654A0023E6FF /* main.m */; };
 		3D3BA0B023CB654B0023E6FF /* XcconfigDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BA0AF23CB654B0023E6FF /* XcconfigDemoTests.m */; };
 		3D3BA0BB23CB654B0023E6FF /* XcconfigDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BA0BA23CB654B0023E6FF /* XcconfigDemoUITests.m */; };
+		3D3BA0C923CB67B70023E6FF /* debugConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */; };
+		3D3BA0CB23CB6C620023E6FF /* 优先级层次结构.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BA0CA23CB6C620023E6FF /* 优先级层次结构.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		3D3BA0B623CB654B0023E6FF /* XcconfigDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcconfigDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3BA0BA23CB654B0023E6FF /* XcconfigDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcconfigDemoUITests.m; sourceTree = "<group>"; };
 		3D3BA0BC23CB654B0023E6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debugConfig.xcconfig; sourceTree = "<group>"; };
+		3D3BA0CA23CB6C620023E6FF /* 优先级层次结构.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "优先级层次结构.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		3D3BA09223CB65410023E6FF /* XcconfigDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D3BA0CA23CB6C620023E6FF /* 优先级层次结构.jpg */,
 				3D3BA09323CB65410023E6FF /* AppDelegate.h */,
 				3D3BA09423CB65410023E6FF /* AppDelegate.m */,
 				3D3BA09623CB65410023E6FF /* SceneDelegate.h */,
@@ -115,6 +120,7 @@
 				3D3BA0A123CB654A0023E6FF /* LaunchScreen.storyboard */,
 				3D3BA0A423CB654A0023E6FF /* Info.plist */,
 				3D3BA0A523CB654A0023E6FF /* main.m */,
+				3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */,
 			);
 			path = XcconfigDemo;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3BA0C923CB67B70023E6FF /* debugConfig.xcconfig in Resources */,
+				3D3BA0CB23CB6C620023E6FF /* 优先级层次结构.jpg in Resources */,
 				3D3BA0A323CB654A0023E6FF /* LaunchScreen.storyboard in Resources */,
 				3D3BA0A023CB654A0023E6FF /* Assets.xcassets in Resources */,
 				3D3BA09E23CB65410023E6FF /* Main.storyboard in Resources */,
@@ -437,6 +445,7 @@
 		};
 		3D3BA0C023CB654B0023E6FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
