@@ -39,5 +39,5 @@
 ## 参考资料
 
 * [apple官网文档](https://help.apple.com/xcode/#/dev745c5c974)
-* [Xcode Concepts](https://developer.apple.com/library/archive/featuredarticles/XcodeConcepts/Concept-Targets.html)Xcode Workspace、Xcode Scheme、Xcode Project、Xcode Target、Build Settings这5者的关系
+* [Xcode Concepts](https://developer.apple.com/library/archive/featuredarticles/XcodeConcepts/Concept-Targets.html)->Xcode Workspace、Xcode Scheme、Xcode Project、Xcode Target、Build Settings这5者的关系
 * [参考xcconfigs模板教程](https://github.com/jspahrsummers/xcconfigs)
