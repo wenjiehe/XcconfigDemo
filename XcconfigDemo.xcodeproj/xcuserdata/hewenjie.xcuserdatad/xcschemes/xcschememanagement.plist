@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Swift-XcconfigDemo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>XcconfigDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>3D3BA0B523CB654B0023E6FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D3BA0D523CB88B30023E6FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D3BA0EA23CB88BB0023E6FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D3BA0F523CB88BB0023E6FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

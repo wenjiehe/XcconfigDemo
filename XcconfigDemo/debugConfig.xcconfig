@@ -9,8 +9,14 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-ASSETCATALOG_COMPILER_AAICON_NAME = MyAppIcon
+CUSTOMURL = @"https:\/\/cn.bing.com\/"
+
 VALID_ARCHS = arm64 arm64e
 
+tv = @"庆余年"
 
+hFont = @"54"
+
+//把配置文件中的定义的常量，定义成预编译宏,加入到Build Setting中对应的Preprocessor Macros中,以便于代码中获取
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) hFont="$(hFont)" CUSTOMURL="$(CUSTOMURL)" kk="$(tv)"
 
