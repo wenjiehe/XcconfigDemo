@@ -18,6 +18,7 @@
 		3D3BA0BB23CB654B0023E6FF /* XcconfigDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3BA0BA23CB654B0023E6FF /* XcconfigDemoUITests.m */; };
 		3D3BA0C923CB67B70023E6FF /* debugConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */; };
 		3D3BA0CB23CB6C620023E6FF /* 优先级层次结构.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BA0CA23CB6C620023E6FF /* 优先级层次结构.jpg */; };
+		3D3BA0D123CB79640023E6FF /* xcconfig的值类型定义.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D3BA0D023CB79640023E6FF /* xcconfig的值类型定义.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		3D3BA0BC23CB654B0023E6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = debugConfig.xcconfig; sourceTree = "<group>"; };
 		3D3BA0CA23CB6C620023E6FF /* 优先级层次结构.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "优先级层次结构.jpg"; sourceTree = "<group>"; };
+		3D3BA0D023CB79640023E6FF /* xcconfig的值类型定义.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xcconfig的值类型定义.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		3D3BA09223CB65410023E6FF /* XcconfigDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D3BA0D023CB79640023E6FF /* xcconfig的值类型定义.jpg */,
 				3D3BA0CA23CB6C620023E6FF /* 优先级层次结构.jpg */,
 				3D3BA09323CB65410023E6FF /* AppDelegate.h */,
 				3D3BA09423CB65410023E6FF /* AppDelegate.m */,
@@ -251,6 +254,7 @@
 				3D3BA0A323CB654A0023E6FF /* LaunchScreen.storyboard in Resources */,
 				3D3BA0A023CB654A0023E6FF /* Assets.xcassets in Resources */,
 				3D3BA09E23CB65410023E6FF /* Main.storyboard in Resources */,
+				3D3BA0D123CB79640023E6FF /* xcconfig的值类型定义.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +552,117 @@
 			};
 			name = Release;
 		};
+		3D3BA0CC23CB70A50023E6FF /* DebugCustom */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = DebugCustom;
+		};
+		3D3BA0CD23CB70A50023E6FF /* DebugCustom */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D3BA0C823CB67B70023E6FF /* debugConfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XcconfigDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hewenjie.com.XcconfigDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugCustom;
+		};
+		3D3BA0CE23CB70A50023E6FF /* DebugCustom */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XcconfigDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hewenjie.com.XcconfigDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcconfigDemo.app/XcconfigDemo";
+			};
+			name = DebugCustom;
+		};
+		3D3BA0CF23CB70A50023E6FF /* DebugCustom */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XcconfigDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hewenjie.com.XcconfigDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XcconfigDemo;
+			};
+			name = DebugCustom;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -555,6 +670,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3BA0BD23CB654B0023E6FF /* Debug */,
+				3D3BA0CC23CB70A50023E6FF /* DebugCustom */,
 				3D3BA0BE23CB654B0023E6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -564,6 +680,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3BA0C023CB654B0023E6FF /* Debug */,
+				3D3BA0CD23CB70A50023E6FF /* DebugCustom */,
 				3D3BA0C123CB654B0023E6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -573,6 +690,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3BA0C323CB654B0023E6FF /* Debug */,
+				3D3BA0CE23CB70A50023E6FF /* DebugCustom */,
 				3D3BA0C423CB654B0023E6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -582,6 +700,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D3BA0C623CB654B0023E6FF /* Debug */,
+				3D3BA0CF23CB70A50023E6FF /* DebugCustom */,
 				3D3BA0C723CB654B0023E6FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

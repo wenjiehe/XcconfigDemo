@@ -10,3 +10,7 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 ASSETCATALOG_COMPILER_AAICON_NAME = MyAppIcon
+VALID_ARCHS = arm64 arm64e
+
+
+
