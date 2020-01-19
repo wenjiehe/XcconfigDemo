@@ -1,33 +1,32 @@
 //
-//  debugConfig.xcconfig
+//  RelaseConfig.xcconfig
 //  XcconfigDemo
 //
-//  Created by 贺文杰 on 2020/1/12.
+//  Created by 贺文杰 on 2020/1/19.
 //  Copyright © 2020 贺文杰. All rights reserved.
 //
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-//系统配置:configuration = Debug
+//系统配置:configuration = Release
 VALID_ARCHS = arm64 arm64e
 
-DEBUG_INFORMATION_FORMAT = dwarf
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
-//None[00]
-GCC_OPTIMIZATION_LEVEL = 0
+//Fastest，Smallest[-Os]
+GCC_OPTIMIZATION_LEVEL = s
 
 //Code Signing Identity
-CODE_SIGN_IDENTITY = Apple Development: WenJie He (5G4QS727RT)
+CODE_SIGN_IDENTITY =
 
 
 //自定义宏定义
-CUSTOMURL = @"https:\/\/cn.bing.com\/"
+CUSTOMURL = @"https:\/\/www.baidu.com\/"
 
-tv = @"庆余年"
+tv = @"五竹"
 
-hFont = @"54"
+hFont = @"23"
 
 //把配置文件中的定义的常量，定义成预编译宏,加入到Build Setting中对应的Preprocessor Macros中,以便于代码中获取
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) hFont="$(hFont)" CUSTOMURL="$(CUSTOMURL)" kk="$(tv)"
-

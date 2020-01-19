@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"hFont = %@ ,CUSTOMURL = %@, kk = %@", hFont, CUSTOMURL, kk);
+    
+    NSLog(@"CFBundleVersion = %@, CFBundleShortVersionString = %@", [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"], [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]);
 }
 
 
